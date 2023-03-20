@@ -1,0 +1,15 @@
+.select-container {
+  .select-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    label {
+      color: rgb(1, 79, 247);
+
+      select {
+        width: 250px;
+      }
+    }
+  }
+}

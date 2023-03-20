@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.custom-container {
+  padding: 110px 100px;
+  max-width: 1920px;
+  margin: auto;
+}/*# sourceMappingURL=global.css.map */

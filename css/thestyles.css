@@ -1,0 +1,11 @@
+.select-container .select-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.select-container .select-wrapper label {
+  color: rgb(1, 79, 247);
+}
+.select-container .select-wrapper label select {
+  width: 250px;
+}/*# sourceMappingURL=thestyles.css.map */

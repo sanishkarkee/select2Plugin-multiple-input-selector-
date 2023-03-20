@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select2-Plugin</title>
+
+  <!-- Style Starts -->
+  <link rel="stylesheet" href="css/thestyles.css">
+  <link rel="stylesheet" href="css/global.css">
+  <!-- Style Ends -->
+
+  <!-- NOTE: In order to use SELECT2 plugin we must import jquery CDN. Import should be in order:
+    1) Jquery CDN 
+    2)Select2  
+    3)Your Javascript  -->
+
+  <!-- JQuery CDN Starts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+  <!-- JQuery CDN Ends -->
+
+  <!-- Select 2 Plugin Starts -->
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <!-- Select 2 Plugin Ends -->
+</head>
+<body>
+<section class="select-container">
+  <div class="custom-container">
+    <div class="select-wrapper">
+      <label for="id_label_multiple">
+       Select a month
+          <select class="js-example-basic-multiple"   id="id_label_multiple" name="month" multiple="multiple">
+        <option class="inputTitle"></option>  <!-- used for placeholder -->
+        <option value="Jan">Jan</option>
+        <option value="Feb">Feb</option>
+        <option value="Mar">Mar</option>
+        <option value="Apr">Apr</option>
+        <option value="May">May</option>
+        <option value="Jun">Jun</option>
+        <option value="Jul">Jul</option>
+        <option value="Aug">Aug</option>
+        <option value="Sep">Sep</option>
+        <option value="Oct">Oct</option>
+        <option value="Nov">Nov</option>
+        <option value="Dec">Dec</option>
+          </select>
+      </label>
+    
+    </div>
+  </div>
+</section>
+  
+  <script type="text/javascript" src="JS/script.js"></script>
+</body>
+</html>
